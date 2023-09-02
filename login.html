@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- fonts google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page d-flex">
+        <div class="sidebar bg-white p-20 p-relative">
+            <h3 class="p-relative txt-c mt-0">Dragon</h3>
+            <ul>
+                <li>
+                    <a class="d-flex align-c fs-14 p-10 c-black rad-6" href="index.html">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span class="hide-mobile">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-c fs-14 p-10 c-black rad-6" href="setting.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span class="hide-mobile">Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-c fs-14 p-10 c-black rad-6" href="profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span class="hide-mobile">Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-c fs-14 p-10 c-black rad-6" href="project.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span class="hide-mobile">Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-c fs-14 p-10 c-black rad-6" href="course.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span class="hide-mobile">Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-c fs-14 p-10 c-black rad-6" href="friend.html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span class="hide-mobile">Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-c fs-14 p-10 c-black rad-6" href="file.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span class="hide-mobile">Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-c fs-14 p-10 c-black rad-6" href="plan.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span class="hide-mobile">Plans</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active d-flex align-c fs-14 p-10 c-black rad-6" href="login.html">
+                        <i class="fa-solid fa-right-to-bracket fa-rotate-180"></i>
+                        <span class="hide-mobile">Login</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content w-full p-relative">
+            <!-- Start Head -->
+            <div class="head bg-white p-15 between-flex">
+                <div class="search p-relative">
+                    <input class="p-10 b-1c rad-10" type="search" placeholder="Type A Keywords">
+                </div>
+                <div class="icons d-flex align-c">
+                    <span class="notification p-relative">
+                        <i class="fa-regular fa-bell fa-lg"></i>
+                    </span>
+                    <img src="image/avatar.png" alt="">
+                </div>
+            </div>
+            <h1 class="main-title p-relative">
+                Log In
+            </h1>
+            <!-- End Head -->
+            <!-- ================================================================================================ -->
+            <!-- Start login -->
+            <div class="login-page bg-white rad-10 txt-c">
+                <div class="container">
+                    <div class="change-color"></div>
+                    <div class="login bg-white rad-6 txt-c">
+                        <h2 class="mt-0 mb-10">Log In</h2>
+                        <p class="c-gray mt-10">Sign In To Your Account</p>
+                        <form action="login.html" method="get">
+                            <label for="mail">
+                                <input class="input1" placeholder="Email" type="email" required name="mail" id="mail">
+                                <i class="fa-solid fa-envelope"></i>
+                            </label>
+                            <label for="pass">
+                                <input class="input1" placeholder="Password" minlength="8" type="password" name="pass" id="pass">
+                                <i class="fa-solid fa-lock"></i>
+                            </label>
+                            <input class="sub" type="submit" value="Login">
+                        </form>
+                        <a href="#">forget Password?</a>
+                    </div>
+                </div>
+            </div>
+            <!-- End login -->
+        </div>
+    </div>
+</body>
+</html>
